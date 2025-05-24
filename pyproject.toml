@@ -1,0 +1,13 @@
+[project]
+name = "dd-multi-agent-frameworks"
+version = "0.1.0"
+description = "Multi agent frameworks"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-adk>=1.0.0",
+    "autogen-core>=0.5.7",
+    "autogen-ext[azure,file-surfer]>=0.5.7",
+    "litellm>=1.70.2",
+    "autogenstudio>=0.4.2"
+]
