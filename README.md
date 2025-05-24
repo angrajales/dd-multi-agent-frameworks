@@ -7,6 +7,7 @@ Exploration of different multi agent frameworks
 ## Prerequisites
 
 - [https://www.python.org/downloads/](Python3.10)
+- [https://docs.astral.sh/uv/](uv)
 - Preconfigure an Azure OpenAI account (https://azure.microsoft.com/es-es/products/ai-services/openai-service) or a OpenAI api key
 
 ## Local setup
@@ -15,6 +16,8 @@ Exploration of different multi agent frameworks
 # For this setup, it's highly recommended to use GitBash for windows or bash in linux.
 git clone https://github.com/angrajales/dd-multi-agent-frameworks.git
 cd dd-multi-agent-frameworks
+uv venv
+uv sync
 mkdir -p .local # or equivalent in windows
 # For Azure OpenAI
 export AZURE_API_KEY="<YOUR_KEY>" # Or equivalent in windows
